@@ -9,17 +9,13 @@
 
 #include <iostream>
 #include <cstdlib>
-
 using namespace std;
-float Revenue=0; // Declare and initialize 3 global variables
-float Weight=0;
-float DailyPrice=0;
 
 class Animal
 {
 private:
     string name;
-    float Revenue=0; // Declare and initialize 3 global variables
+    float Revenue=0; // Declare and initialize variables
     float Weight=0;
     float DailyPrice=0;
 public:
