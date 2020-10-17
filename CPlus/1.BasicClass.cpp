@@ -1,7 +1,7 @@
 
 /*
  *  This code demonstrate the creation of a basic class.
- *  - Private: Only class and friend function can access
+ *  - Private: Only class and friend function can access it
  *  # Protected: Any Derived class can also access.
  *  + Public: Anyone anywhere outside class can access
  *  Author: Deepankar Maithani
