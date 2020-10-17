@@ -1,7 +1,7 @@
 
 /*
  *  This code demonstrate the creation of a basic class.
- *  - Private: Only class and friend function can access
+ *  - Private: Only class and friend function can access it
  *  # Protected: Any Derived class can also access.
  *  + Public: Anyone anywhere outside class can access
  *  Author: Deepankar Maithani
@@ -9,17 +9,13 @@
 
 #include <iostream>
 #include <cstdlib>
-
 using namespace std;
-float Revenue=0; // Declare and initialize 3 global variables
-float Weight=0;
-float DailyPrice=0;
 
 class Animal
 {
 private:
     string name;
-    float Revenue=0; // Declare and initialize 3 global variables
+    float Revenue=0; // Declare and initialize variables
     float Weight=0;
     float DailyPrice=0;
 public:
