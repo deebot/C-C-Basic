@@ -18,6 +18,12 @@ private:
 protected:
     string type="P";
 public:
+
+/* If i create the constructor written below under protected.
+ * Then i cannot create a object of person class. But i will
+ * be able to use this constructor in the derived classes.
+ * This is useful when my base class is just acting like a template.
+ */
     Person(string n,string l,int a):name(n),lastname(l),age(a){
        cout <<"Created a new object with name "<<name <<endl;
     }
@@ -70,7 +76,9 @@ public:
     }
 };
 int main()
-{
+{   /* Wont be able to create the object of class Person if constructor for person is defined
+     * as protected. But will be able to create objects of Customer and Employee.
+     */
     Person P1("Deepankar","Maithani",34);
     Customer C1("john","Bauer",30,100);
     C1.whoami();
